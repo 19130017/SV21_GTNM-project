@@ -1480,7 +1480,7 @@ typeof navigator === "object" && (function (global, factory) {
     }
   };
 
-  var Storage = /*#__PURE__*/function () {
+  var Storage = /*#_PURE_*/function () {
     function Storage(player) {
       _classCallCheck(this, Storage);
 
@@ -1538,7 +1538,7 @@ typeof navigator === "object" && (function (global, factory) {
             return false;
           }
 
-          var test = '___test'; // Try to use it (it might be disabled, e.g. user is in private mode)
+          var test = '__test'; // Try to use it (it might be disabled, e.g. user is in private mode)
           // see: https://github.com/sampotts/plyr/issues/131
 
           window.localStorage.setItem(test, test);
@@ -2795,7 +2795,7 @@ typeof navigator === "object" && (function (global, factory) {
       this.elements.controls = container; // Default item attributes
 
       var defaultAttributes = {
-        class: 'plyr__controls__item'
+        class: 'plyr_controls_item'
       }; // Loop through controls in order
 
       dedupe(is$1.array(this.config.controls) ? this.config.controls : []).forEach(function (control) {
@@ -2822,7 +2822,7 @@ typeof navigator === "object" && (function (global, factory) {
 
         if (control === 'progress') {
           var progressContainer = createElement('div', {
-            class: "".concat(defaultAttributes.class, " plyr__progress__container")
+            class: "".concat(defaultAttributes.class, " plyr_progress_container")
           });
           var progress = createElement('div', getAttributesFromSelector(_this10.config.selectors.progress)); // Seek range slider
 
@@ -2862,7 +2862,7 @@ typeof navigator === "object" && (function (global, factory) {
 
           if (!is$1.element(volume) || !container.contains(volume)) {
             volume = createElement('div', extend({}, defaultAttributes, {
-              class: "".concat(defaultAttributes.class, " plyr__volume").trim()
+              class: "".concat(defaultAttributes.class, " plyr_volume").trim()
             }));
             _this10.elements.volume = volume;
             container.appendChild(volume);
@@ -2898,7 +2898,7 @@ typeof navigator === "object" && (function (global, factory) {
 
         if (control === 'settings' && !is$1.empty(_this10.config.settings)) {
           var wrapper = createElement('div', extend({}, defaultAttributes, {
-            class: "".concat(defaultAttributes.class, " plyr__menu").trim(),
+            class: "".concat(defaultAttributes.class, " plyr_menu").trim(),
             hidden: ''
           }));
           wrapper.appendChild(createButton.call(_this10, 'settings', {
@@ -2907,7 +2907,7 @@ typeof navigator === "object" && (function (global, factory) {
             'aria-expanded': false
           }));
           var popup = createElement('div', {
-            class: 'plyr__menu__container',
+            class: 'plyr_menu_container',
             id: "plyr-settings-".concat(data.id),
             hidden: ''
           });
@@ -3817,7 +3817,7 @@ typeof navigator === "object" && (function (global, factory) {
       container: '.plyr',
       controls: {
         container: null,
-        wrapper: '.plyr__controls'
+        wrapper: '.plyr_controls'
       },
       labels: '[data-plyr]',
       buttons: {
@@ -3843,49 +3843,49 @@ typeof navigator === "object" && (function (global, factory) {
         quality: '[data-plyr="quality"]'
       },
       display: {
-        currentTime: '.plyr__time--current',
-        duration: '.plyr__time--duration',
-        buffer: '.plyr__progress__buffer',
-        loop: '.plyr__progress__loop',
+        currentTime: '.plyr_time--current',
+        duration: '.plyr_time--duration',
+        buffer: '.plyr_progress_buffer',
+        loop: '.plyr_progress_loop',
         // Used later
-        volume: '.plyr__volume--display'
+        volume: '.plyr_volume--display'
       },
-      progress: '.plyr__progress',
-      captions: '.plyr__captions',
-      caption: '.plyr__caption'
+      progress: '.plyr_progress',
+      captions: '.plyr_captions',
+      caption: '.plyr_caption'
     },
     // Class hooks added to the player in different states
     classNames: {
       type: 'plyr--{0}',
       provider: 'plyr--{0}',
-      video: 'plyr__video-wrapper',
-      embed: 'plyr__video-embed',
-      videoFixedRatio: 'plyr__video-wrapper--fixed-ratio',
-      embedContainer: 'plyr__video-embed__container',
-      poster: 'plyr__poster',
-      posterEnabled: 'plyr__poster-enabled',
-      ads: 'plyr__ads',
-      control: 'plyr__control',
-      controlPressed: 'plyr__control--pressed',
+      video: 'plyr_video-wrapper',
+      embed: 'plyr_video-embed',
+      videoFixedRatio: 'plyr_video-wrapper--fixed-ratio',
+      embedContainer: 'plyr_video-embed_container',
+      poster: 'plyr_poster',
+      posterEnabled: 'plyr_poster-enabled',
+      ads: 'plyr_ads',
+      control: 'plyr_control',
+      controlPressed: 'plyr_control--pressed',
       playing: 'plyr--playing',
       paused: 'plyr--paused',
       stopped: 'plyr--stopped',
       loading: 'plyr--loading',
       hover: 'plyr--hover',
-      tooltip: 'plyr__tooltip',
-      cues: 'plyr__cues',
-      hidden: 'plyr__sr-only',
+      tooltip: 'plyr_tooltip',
+      cues: 'plyr_cues',
+      hidden: 'plyr_sr-only',
       hideControls: 'plyr--hide-controls',
       isIos: 'plyr--is-ios',
       isTouch: 'plyr--is-touch',
       uiSupported: 'plyr--full-ui',
       noTransition: 'plyr--no-transition',
       display: {
-        time: 'plyr__time'
+        time: 'plyr_time'
       },
       menu: {
-        value: 'plyr__menu__value',
-        badge: 'plyr__badge',
+        value: 'plyr_menu_value',
+        badge: 'plyr_badge',
         open: 'plyr--menu-open'
       },
       captions: {
@@ -3904,16 +3904,16 @@ typeof navigator === "object" && (function (global, factory) {
         supported: 'plyr--airplay-supported',
         active: 'plyr--airplay-active'
       },
-      tabFocus: 'plyr__tab-focus',
+      tabFocus: 'plyr_tab-focus',
       previewThumbnails: {
         // Tooltip thumbs
-        thumbContainer: 'plyr__preview-thumb',
-        thumbContainerShown: 'plyr__preview-thumb--is-shown',
-        imageContainer: 'plyr__preview-thumb__image-container',
-        timeContainer: 'plyr__preview-thumb__time-container',
+        thumbContainer: 'plyr_preview-thumb',
+        thumbContainerShown: 'plyr_preview-thumb--is-shown',
+        imageContainer: 'plyr_preview-thumb_image-container',
+        timeContainer: 'plyr_preview-thumb_time-container',
         // Scrubbing
-        scrubbingContainer: 'plyr__preview-scrubbing',
-        scrubbingContainerShown: 'plyr__preview-scrubbing--is-shown'
+        scrubbingContainer: 'plyr_preview-scrubbing',
+        scrubbingContainerShown: 'plyr_preview-scrubbing--is-shown'
       }
     },
     // Embed attributes
@@ -4008,7 +4008,7 @@ typeof navigator === "object" && (function (global, factory) {
   // ==========================================================================
   var noop = function noop() {};
 
-  var Console = /*#__PURE__*/function () {
+  var Console = /*#_PURE_*/function () {
     function Console() {
       var enabled = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
 
@@ -4044,7 +4044,7 @@ typeof navigator === "object" && (function (global, factory) {
     return Console;
   }();
 
-  var Fullscreen = /*#__PURE__*/function () {
+  var Fullscreen = /*#_PURE_*/function () {
     function Fullscreen(player) {
       var _this = this;
 
@@ -4585,7 +4585,7 @@ typeof navigator === "object" && (function (global, factory) {
     }
   };
 
-  var Listeners = /*#__PURE__*/function () {
+  var Listeners = /*#_PURE_*/function () {
     function Listeners(player) {
       _classCallCheck(this, Listeners);
 
@@ -6503,7 +6503,7 @@ typeof navigator === "object" && (function (global, factory) {
     instance.elements.container.remove();
   };
 
-  var Ads = /*#__PURE__*/function () {
+  var Ads = /*#_PURE_*/function () {
     /**
      * Ads constructor.
      * @param {Object} player
@@ -7203,7 +7203,7 @@ typeof navigator === "object" && (function (global, factory) {
     return result;
   };
 
-  var PreviewThumbnails = /*#__PURE__*/function () {
+  var PreviewThumbnails = /*#_PURE_*/function () {
     /**
      * PreviewThumbnails constructor.
      * @param {Plyr} player
@@ -7443,7 +7443,7 @@ typeof navigator === "object" && (function (global, factory) {
     }, {
       key: "render",
       value: function render() {
-        // Create HTML element: plyr__preview-thumbnail-container
+        // Create HTML element: plyr_preview-thumbnail-container
         this.elements.thumb.container = createElement('div', {
           class: this.player.config.classNames.previewThumbnails.thumbContainer
         }); // Wrapper for the image for styling
@@ -7462,7 +7462,7 @@ typeof navigator === "object" && (function (global, factory) {
 
         if (is$1.element(this.player.elements.progress)) {
           this.player.elements.progress.appendChild(this.elements.thumb.container);
-        } // Create HTML element: plyr__preview-scrubbing-container
+        } // Create HTML element: plyr_preview-scrubbing-container
 
 
         this.elements.scrubbing.container = createElement('div', {
@@ -8045,7 +8045,7 @@ typeof navigator === "object" && (function (global, factory) {
   // const globals = new WeakMap();
   // Plyr instance
 
-  var Plyr = /*#__PURE__*/function () {
+  var Plyr = /*#_PURE_*/function () {
     function Plyr(target, options) {
       var _this = this;
 

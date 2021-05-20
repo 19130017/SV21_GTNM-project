@@ -6075,6 +6075,7 @@ a.close.disabled {
   margin-right: 15%;
   margin-left: 15%;
   list-style: none;
+  transform: translateY(-32px);
 }
 .carousel-indicators li {
   box-sizing: content-box;
@@ -6086,7 +6087,7 @@ a.close.disabled {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: palevioletred;
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;

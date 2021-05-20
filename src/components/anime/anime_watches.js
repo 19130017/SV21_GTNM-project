@@ -13,14 +13,13 @@ export default class anime_watches extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="anime_video_player">
-                  <video
+                  {/* <video
                     id="player"
                     playsInline
                     controls
                     data-poster="./videos/anime-watch.jpg"
                   >
                     <source src="videos/1.mp4" type="video/mp4" />
-                    {/* Captions are optional */}
                     <track
                       kind="captions"
                       label="English captions"
@@ -28,11 +27,30 @@ export default class anime_watches extends Component {
                       srcLang="en"
                       default
                     />
-                  </video>
+                  </video> */}
+
+                  <div
+                    style={{
+                      position: "relative",
+                      overflow: "hidden",
+                      paddingBottom: "56.25%",
+                    }}
+                  >
+                    <iframe
+                      src="https://phephim.xyz/embed/video?id=57965"
+                      width="100%"
+                      height="100%"
+                      frameBorder={0}
+                      scrolling="auto"
+                      title={1}
+                      style={{ position: "absolute" }}
+                      allowFullScreen
+                    />
+                  </div>
                 </div>
                 <div className="anime_details_episodes">
                   <div className="section-title">
-                    <h5>List Name</h5>
+                    <h5>Name Anime</h5>
                   </div>
                   <a href="#">Ep 01</a>
                   <a href="#">Ep 02</a>

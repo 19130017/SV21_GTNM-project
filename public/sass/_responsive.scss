@@ -17,16 +17,16 @@
     overflow: hidden;
   }
 
-  .login__form {
+  .login_form {
     position: relative;
     padding-left: 32px;
   }
 
-  .login__social__links ul li a {
+  .login_social_links ul li a {
     width: 380px;
   }
 
-  .blog__item__text {
+  .blog_item_text {
     padding: 0 50px;
   }
 }
@@ -45,14 +45,14 @@
     }
   }
 
-  .header__right {
+  .header_right {
     position: absolute;
     right: 120px;
     top: -42px;
     padding: 0;
   }
 
-  .header__menu {
+  .header_menu {
     display: none;
   }
 
@@ -114,36 +114,36 @@
     color: $heading-color;
   }
 
-  .product__sidebar {
+  .product_sidebar {
     padding-top: 50px;
   }
 
-  .footer__logo {
+  .footer_logo {
     text-align: center;
     margin-bottom: 20px;
   }
 
-  .footer__nav {
+  .footer_nav {
     margin-bottom: 15px;
   }
 
-  .footer__copyright__text {
+  .footer_copyright_text {
     text-align: center;
   }
 
-  .anime__details__widget ul li span {
+  .anime_details_widget ul li span {
     width: 90px;
   }
 
-  .anime__details__pic {
+  .anime_details_pic {
     margin-bottom: 40px;
   }
 
-  .anime__details__sidebar {
+  .anime_details_sidebar {
     padding-top: 50px;
   }
 
-  .login__form {
+  .login_form {
     padding-left: 0;
     margin-bottom: 40px;
 
@@ -152,15 +152,15 @@
     }
   }
 
-  .login__form form .input__item {
+  .login_form form .input_item {
     width: auto;
   }
 
-  .login__register {
+  .login_register {
     padding-left: 0;
   }
 
-  .signup .login__social__links {
+  .signup .login_social_links {
     padding-left: 0;
   }
 }
@@ -179,14 +179,14 @@
     }
   }
 
-  .header__right {
+  .header_right {
     position: absolute;
     right: 120px;
     top: -42px;
     padding: 0;
   }
 
-  .header__menu {
+  .header_menu {
     display: none;
   }
 
@@ -248,66 +248,66 @@
     color: $heading-color;
   }
 
-  .product__sidebar {
+  .product_sidebar {
     padding-top: 50px;
   }
 
-  .footer__logo {
+  .footer_logo {
     text-align: center;
     margin-bottom: 20px;
   }
 
-  .footer__nav {
+  .footer_nav {
     margin-bottom: 15px;
   }
 
-  .footer__copyright__text {
+  .footer_copyright_text {
     text-align: center;
   }
 
-  .blog__details__title h2 {
+  .blog_details_title h2 {
     font-size: 34px;
     line-height: normal;
   }
 
-  .anime__details__pic {
+  .anime_details_pic {
     margin-bottom: 40px;
   }
 
-  .anime__details__sidebar {
+  .anime_details_sidebar {
     padding-top: 50px;
   }
 
-  .btn__all {
+  .btn_all {
     text-align: left;
   }
 
-  .product__page__title .section-title {
+  .product_page_title .section-title {
     margin-bottom: 30px;
   }
 
-  .product__page__title .product__page__filter {
+  .product_page_title .product_page_filter {
     text-align: left;
   }
 
-  .anime__details__rating {
+  .anime_details_rating {
     text-align: left;
     position: relative;
     margin-bottom: 20px;
   }
 
-  .blog__details__social {
+  .blog_details_social {
     overflow: hidden;
   }
 
-  .blog__details__title .blog__details__social a {
+  .blog_details_title .blog_details_social a {
     margin-right: 10px;
     margin-bottom: 10px;
     width: calc(50% - 10px);
     float: left;
   }
 
-  .login__form {
+  .login_form {
     padding-left: 0;
     margin-bottom: 40px;
 
@@ -316,27 +316,27 @@
     }
   }
 
-  .login__form form .input__item {
+  .login_form form .input_item {
     width: auto;
   }
 
-  .signup .login__social__links {
+  .signup .login_social_links {
     padding-left: 0;
   }
 
-  .login__social__links ul li a {
+  .login_social_links ul li a {
     width: auto;
   }
 
-  .blog__item__text {
+  .blog_item_text {
     padding: 0 30px;
   }
 
-  .login__register {
+  .login_register {
     padding-left: 0;
   }
 
-  .product__sidebar__view .filter__controls li {
+  .product_sidebar_view .filter_controls li {
     margin-right: 2px;
   }
 
@@ -347,82 +347,82 @@
 
 /* Small Device = 320px */
 @media only screen and (max-width: 479px) {
-  .hero__slider.owl-carousel .owl-nav {
+  .hero_slider.owl-carousel .owl-nav {
     display: none;
   }
 
-  .hero__items {
+  .hero_items {
     padding: 250px 0 42px 15px;
   }
 
-  .hero__text h2 {
+  .hero_text h2 {
     font-size: 32px;
   }
 
-  .footer__nav ul li {
+  .footer_nav ul li {
     margin-right: 10px;
   }
 
-  .anime__details__btn .follow-btn {
+  .anime_details_btn .follow-btn {
     padding: 14px 26px;
     margin-right: 11px;
     margin-bottom: 25px;
   }
 
-  .anime__details__widget ul li span {
+  .anime_details_widget ul li span {
     width: 85px;
   }
 
-  .anime__video__player .plyr__volume {
+  .anime_video_player .plyr_volume {
     left: 65px;
   }
 
-  .anime__video__player .plyr__controls .plyr__controls__item.plyr__time {
+  .anime_video_player .plyr_controls .plyr_controls_item.plyr_time {
     left: 95px;
   }
 
-  .anime__video__player .plyr__menu {
+  .anime_video_player .plyr_menu {
     margin-right: 60px;
   }
-  .blog__details__title h2 {
+  .blog_details_title h2 {
     font-size: 30px;
     line-height: normal;
   }
 
-  .blog__details__title .blog__details__social a {
+  .blog_details_title .blog_details_social a {
     padding: 16px 25px 14px 20px;
   }
 
-  .blog__details__comment__item.blog__details__comment__item--reply {
+  .blog_details_comment_item.blog_details_comment_item--reply {
     padding-left: 0;
   }
 
-  .blog__details__comment__item__pic {
+  .blog_details_comment_item_pic {
     margin-right: 25px;
   }
 
-  .blog__details__comment__item__text a {
+  .blog_details_comment_item_text a {
     margin-right: 6px;
   }
 
-  .login__social__links ul li a i {
+  .login_social_links ul li a i {
     left: 20px;
   }
 
-  .login__form .forget_pass {
+  .login_form .forget_pass {
     position: relative;
     left: 0;
     bottom: 0;
     margin-top: 25px;
   }
 
-  .header__right a {
+  .header_right a {
     margin-right: 10px;
   }
-  .anime__review__item__text h6 span {
+  .anime_review_item_text h6 span {
     font-size: 12px;
   }
-  .anime__review__item__text {
+  .anime_review_item_text {
     padding: 18px 20px 20px;
   }
 }

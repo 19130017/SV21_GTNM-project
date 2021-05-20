@@ -14,21 +14,21 @@ export default class anime_details extends Component {
                 <div className="col-lg-3">
                   <div
                     className="anime_details_pic set-bg"
-                    data-setbg="img/anime/details-pic.jpg"
+                    data-setbg="img/trending/trend-1.jpg"
                   >
                     <div className="comment">
                       <i className="fa fa-comments" /> 11
                     </div>
                     <div className="view">
-                      <i className="fa fa-eye" /> 9141
+                      <i className="fa fa-eye" /> 1.123.141
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-9">
                   <div className="anime_details_text">
                     <div className="anime_details_title">
-                      <h3>Fate Stay Night: Unlimited Blade</h3>
-                      <span>フェイト／ステイナイト, Feito／sutei naito</span>
+                      <h3>Boruto: Naruto next generations </h3>
+                      <span>フェイト／ステイナイト, Kishimoto Masashi</span>
                     </div>
                     <div className="anime_details_rating">
                       <div className="rating">
@@ -48,15 +48,10 @@ export default class anime_details extends Component {
                           <i className="fa fa-star-half-o" />
                         </a>
                       </div>
-                      <span>1.029 Votes</span>
+                      <span>1.021.213 Votes</span>
                     </div>
                     <p>
-                      Every human inhabiting the world of Alcia is branded by a
-                      “Count” or a number written on their body. For Hina’s
-                      mother, her total drops to 0 and she’s pulled into the
-                      Abyss, never to be seen again. But her mother’s last words
-                      send Hina on a quest to find a legendary hero from the
-                      Waste War - the fabled Ace!
+                    Naruto là một chàng trai trẻ đầy nhiệt huyết cũng như rất nghịch ngợm, trải qua bao nhiêu thăng trầm, cậu trở thành anh hùng của thế giới nhẫn giả và lên chức Hokage làng lá. Nhưng câu chuyện này không phải về naruto, mà là về con trai của naruto, chính là Boruto.
                     </p>
                     <div className="anime_details_widget">
                       <div className="row">
@@ -69,7 +64,7 @@ export default class anime_details extends Component {
                               <span>Studios:</span> Lerche
                             </li>
                             <li>
-                              <span>Date aired:</span> Oct 02, 2019 to ?
+                              <span>Date aired:</span> Oct 02, 2017 to ?
                             </li>
                             <li>
                               <span>Status:</span> Airing
@@ -86,7 +81,7 @@ export default class anime_details extends Component {
                               <span>Scores:</span> 7.31 / 1,515
                             </li>
                             <li>
-                              <span>Rating:</span> 8.5 / 161 times
+                              <span>Rating:</span> 9.5 / 161 times
                             </li>
                             <li>
                               <span>Duration:</span> 24 min/ep
@@ -95,7 +90,7 @@ export default class anime_details extends Component {
                               <span>Quality:</span> HD
                             </li>
                             <li>
-                              <span>Views:</span> 131,541
+                              <span>Views:</span> 1.131,541
                             </li>
                           </ul>
                         </div>

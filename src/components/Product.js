@@ -36,7 +36,7 @@ export default class Product extends Component {
                             <i className="fa fa-comments" /> 11
                           </div>
                           <div className="view">
-                            <i className="fa fa-eye" /> 9141
+                            <i className="fa fa-eye" /> 1.123.141
                           </div>
                         </div>
                         <div className="product_item_text">
@@ -45,8 +45,8 @@ export default class Product extends Component {
                             <li>Movie</li>
                           </ul>
                           <h5>
-                            <a href="#">
-                              The Seven Deadly Sins: Wrath of the Gods
+                            <a href="/anime_details">
+                              Boruto: Naruto next generations
                             </a>
                           </h5>
                         </div>
@@ -717,10 +717,10 @@ export default class Product extends Component {
                       >
                         <div className="ep">18 / ?</div>
                         <div className="view">
-                          <i className="fa fa-eye" /> 9141
+                          <i className="fa fa-eye" /> 1.123.141
                         </div>
                         <h5>
-                          <a href="#">Boruto: Naruto next generations</a>
+                          <a href="/anime_details">Boruto: Naruto next generations</a>
                         </h5>
                       </div>
                       <div

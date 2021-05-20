@@ -33,7 +33,7 @@ export default class Signup extends Component {
                     </button>
                   </form>
                   <h5>
-                    Already have an account? <a href="#">Log In!</a>
+                    Already have an account? <a href="/login">Log In!</a>
                   </h5>
                 </div>
               </div>

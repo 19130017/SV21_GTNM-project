@@ -1,7 +1,7 @@
 /*---------------------
   Anime Watching
 -----------------------*/
-.anime__video__player {
+.anime_video_player {
   margin-bottom: 70px;
 
   .plyr--video {
@@ -15,21 +15,21 @@
     width: 102%;
   }
 
-  .plyr--full-ui.plyr--video .plyr__control--overlaid {
+  .plyr--full-ui.plyr--video .plyr_control--overlaid {
     display: block;
   }
 
-  .plyr--video .plyr__control.plyr__tab-focus,
-  .plyr--video .plyr__control:hover,
-  .plyr--video .plyr__control[aria-expanded=true] {
+  .plyr--video .plyr_control.plyr_tab-focus,
+  .plyr--video .plyr_control:hover,
+  .plyr--video .plyr_control[aria-expanded=true] {
     background: transparent;
   }
 
-  .plyr--video .plyr__controls {
+  .plyr--video .plyr_controls {
     background: transparent;
   }
 
-  .plyr--video .plyr__progress__buffer {
+  .plyr--video .plyr_progress_buffer {
     color: transparent;
   }
 
@@ -37,43 +37,43 @@
     color: $white-color;
   }
 
-  .plyr__controls .plyr__controls__item.plyr__progress__container {
+  .plyr_controls .plyr_controls_item.plyr_progress_container {
     position: absolute;
     left: 26px;
     bottom: 45px;
     width: calc(100% - 60px);
   }
 
-  .plyr__menu {
+  .plyr_menu {
     margin-right: 70px;
   }
 
-  .plyr__controls .plyr__controls__item:first-child {
+  .plyr_controls .plyr_controls_item:first-child {
     position: absolute;
     left: 32px;
     bottom: 8px;
   }
 
-  .plyr__controls .plyr__controls__item:last-child {
+  .plyr_controls .plyr_controls_item:last-child {
     position: absolute;
     right: 32px;
     bottom: 8px;
   }
 
-  .plyr__volume {
+  .plyr_volume {
     position: absolute;
     width: auto;
     left: 76px;
     bottom: 8px;
   }
 
-  .plyr__controls .plyr__controls__item.plyr__time {
+  .plyr_controls .plyr_controls_item.plyr_time {
     position: absolute;
     left: 106px;
     bottom: 12px;
   }
 
-  .plyr__control--overlaid {
+  .plyr_control--overlaid {
     background: transparent;
     background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, transparent)));
 
@@ -84,7 +84,7 @@
   }
 }
 
-.anime__details__episodes {
+.anime_details_episodes {
   margin-bottom: 35px;
 
   a {

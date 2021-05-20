@@ -10,10 +10,10 @@ export default class BreadCrumbs extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="breadcrumb_links">
-                  <a href="./index.html">
+                  <a href="./">
                     <i className="fa fa-home" /> Home
                   </a>
-                  <a href="./categories.html">Categories</a>
+                  <a href="./category">Categories</a>
                   <span>Romance</span>
                 </div>
               </div>

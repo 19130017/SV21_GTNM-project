@@ -5,12 +5,12 @@
     padding-top: 50px;
 }
 
-.hero__items {
+.hero_items {
     padding: 250px 0 42px 50px;
     border-radius: 5px;
 }
 
-.hero__text {
+.hero_text {
     position: relative;
     z-index: 9;
 
@@ -80,7 +80,7 @@
     }
 }
 
-.hero__slider {
+.hero_slider {
 
     &.owl-carousel {
 
@@ -88,7 +88,7 @@
 
             &.active {
 
-                .hero__text {
+                .hero_text {
 
                     .label {
                         top: 0;

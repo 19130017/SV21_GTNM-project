@@ -40,6 +40,12 @@
     });
     
   });
+  $(window).on("load",function(){
+    $("data-src").each(function (){
+      var bg = $(this).data("data-src");
+      $(this).css("background-image", "url(" + bg + ")")
+    })
+  })
   // Search model
   $(".search-switch").on("click", function () {
     $(".search-model").fadeIn(400);

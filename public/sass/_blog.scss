@@ -6,17 +6,17 @@
     padding-bottom: 90px;
 }
 
-.blog__item {
+.blog_item {
     height: 580px;
     position: relative;
     margin-left: -10px;
     margin-right: -10px;
     margin-bottom: 10px;
 
-    &.small__item {
+    &.small_item {
         height: 285px;
 
-        .blog__item__text {
+        .blog_item_text {
             padding: 0 30px;
 
             p {
@@ -34,7 +34,7 @@
     }
 }
 
-.blog__item__text {
+.blog_item_text {
     position: absolute;
     left: 0;
     bottom: 25px;
