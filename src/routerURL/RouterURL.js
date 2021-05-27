@@ -5,6 +5,7 @@ import anime_watches from "../components/anime/anime_watches";
 import Blog from "../components/blog/Blog";
 import Blogdetails from "../components/blog/Blogdetails";
 import Category from "../components/category/Category";
+import Contact from "../components/contact/Contact";
 import Home from "../components/Home";
 import ForgotPassword from "../components/login/ForgotPassword";
 import Login from "../components/login/Login";
@@ -24,6 +25,7 @@ export default class RouterURL extends Component {
           <Route exact path="/anime_details" component={anime_details} />
           <Route exact path="/anime_watches" component={anime_watches} />
           <Route exact path="/forgotPass" component = {ForgotPassword} />
+          <Route exact path="/contact" component = {Contact} />
         </div>
       </Router>
     );

@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-export default class Breadcrumb extends Component {
-  render() {
-    return (
-      <div>
-        <section
+class Breadcrumb extends Component {
+    render() {
+        return (
+            <div>
+          <section
           className="normal-breadcrumb set-bg"
           data-setbg="img/normal-breadcrumb.jpg"
         >
@@ -12,14 +12,16 @@ export default class Breadcrumb extends Component {
             <div className="row">
               <div className="col-lg-12 text-center">
                 <div className="normal_breadcrumb_text">
-                  <h2>Login</h2>
-                  <p>Home/Login</p>
+                  <h2>Our Blog</h2>
+                  <p>Home/Our Blog</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
-      </div>
-    );
-  }
+            </div>
+        );
+    }
 }
+
+export default Breadcrumb;

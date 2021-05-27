@@ -51,7 +51,7 @@ export default class Menu extends Component {
                         <a href="/blog">Our Blog</a>
                       </li>
                       <li>
-                        <a href="#">Contacts</a>
+                        <a href="/contact">Contacts</a>
                       </li>
                     </ul>
                   </nav>
