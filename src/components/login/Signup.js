@@ -5,8 +5,21 @@ export default class Signup extends Component {
   render() {
     return (
       <div>
-        
-        <Breadcrumb />
+        <section
+          className="normal-breadcrumb set-bg"
+          data-setbg="img/normal-breadcrumb.jpg"
+        >
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12 text-center">
+                <div className="normal_breadcrumb_text">
+                  <h2>Register</h2>
+                  <p>Home / Register</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* Signup Section Begin */}
         <section className="signup spad">
@@ -29,7 +42,7 @@ export default class Signup extends Component {
                       <span className="icon_lock" />
                     </div>
                     <button type="submit" className="site-btn">
-                      Login Now
+                      <a href="/login">Sign up</a>
                     </button>
                   </form>
                   <h5>

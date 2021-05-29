@@ -19,7 +19,7 @@ export default class Menu extends Component {
                 <div className="header_nav">
                   <nav className="header_menu mobile-menu">
                     <ul>
-                      <li className="active">
+                      <li className="">
                         <a href="/">Homepage</a>
                       </li>
                       <li>

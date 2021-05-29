@@ -13,7 +13,7 @@ class Breadcrum extends Component {
               <div className="col-lg-12 text-center">
                 <div className="normal_breadcrumb_text">
                   <h2>Contact</h2>
-                  <p>Home/Contacts</p>
+                  <p>Home / Contacts</p>
                 </div>
               </div>
             </div>

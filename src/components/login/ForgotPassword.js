@@ -1,12 +1,27 @@
-import React, { Component } from 'react';
-import Breadcrumb from './Breadcrumb';
+import React, { Component } from "react";
+import Breadcrumb from "./Breadcrumb";
 
 class ForgotPassword extends Component {
-    render() {
-        return (
-            <div>
-                <Breadcrumb />
-                  <section className="login spad">
+  render() {
+    return (
+      <div>
+        <section
+          className="normal-breadcrumb set-bg"
+          data-setbg="img/normal-breadcrumb.jpg"
+        >
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12 text-center">
+                <div className="normal_breadcrumb_text">
+                  <h2>Forgot Password</h2>
+                  <p>Home / Forgot Password</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="login spad">
           <div className="container">
             <div className="row">
               <div className="col-lg-6">
@@ -38,14 +53,19 @@ class ForgotPassword extends Component {
                     Register Now
                   </a>
                 </div>
+                <div className="login_register mt-3">
+                  <h3>Have An Account?</h3>
+                  <a href="/login" className="primary-btn">
+                    Login
+                  </a>
+                </div>
               </div>
-           
             </div>
           </div>
         </section>
-            </div>
-        );
-    }
+      </div>
+    );
+  }
 }
 
 export default ForgotPassword;
