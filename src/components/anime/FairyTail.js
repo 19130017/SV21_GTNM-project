@@ -19,6 +19,7 @@ export default class FairyTail extends Component {
                     </div>
                 }
                 name="Bleach"
+                href="/"
             />
         )
     }

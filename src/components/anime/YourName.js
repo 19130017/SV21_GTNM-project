@@ -19,6 +19,7 @@ export default class YourName extends Component {
                     </div>
                 }
                 name="Kimi no Na wa"
+                href="/"
             />
         )
     }

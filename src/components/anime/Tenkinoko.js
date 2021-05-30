@@ -18,6 +18,7 @@ export default class Tenkinoko extends Component {
                     </div>
                 }
                 name="Tensei shitara Slime Datta Ken"
+                href="/"
             />
         )
     }

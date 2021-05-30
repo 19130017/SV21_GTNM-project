@@ -20,6 +20,7 @@ export default class BlackClover extends Component {
                     </div>
                 }
                 name="Black Clover"
+                href="/"
             />
         )
     }

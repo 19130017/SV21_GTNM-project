@@ -19,6 +19,7 @@ export default class KimetsunoYaibaMugenRessha extends Component {
                     </div>
                 }
                 name="One piece"
+                href="/"
             />
         )
     }

@@ -16,6 +16,7 @@ export default class CaptainTsubasa extends Component {
                     </div>
                 }
                 name="Captain Tsubasa"
+                href="/"
             />
         )
     }
