@@ -14,7 +14,7 @@ export default class anime_details extends Component {
                 <div className="col-lg-3">
                   <div
                     className="anime_details_pic set-bg"
-                    data-setbg="img/trending/trend-1.jpg"
+                    data-setbg="img/trending/boruto.jpg"
                   >
                     <div className="comment">
                       <i className="fa fa-comments" /> 11
