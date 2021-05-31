@@ -18,7 +18,7 @@ export default class TenseiShitaraSlimeDattaKen extends Component {
                     </div>
                 }
                 name="Tensei shitara Slime Datta Ken"
-                href="/"
+                href="/tenseira_detail"
             />
         )
     }

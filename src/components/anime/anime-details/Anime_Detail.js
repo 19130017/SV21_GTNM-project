@@ -1,11 +1,11 @@
-import React, { Component } from "react";
-import BreadCrumbs from "../category/BreadCrumbs";
+import React, { Component } from 'react';
+import BreadCrumbs from '../../category/BreadCrumbs';
 
-export default class anime_details extends Component {
-  render() {
-    return (
-      <div>
-        <BreadCrumbs />
+class Anime_Detail extends Component {
+    render() {
+        return (
+            <div>
+                  <BreadCrumbs />
         {/* Anime Section Begin */}
         <section className="anime-details spad">
           <div className="container">
@@ -14,21 +14,21 @@ export default class anime_details extends Component {
                 <div className="col-lg-3">
                   <div
                     className="anime_details_pic set-bg"
-                    data-setbg="img/trending/boruto.jpg"
+                    data-setbg={this.props.bg}
                   >
                     <div className="comment">
-                      <i className="fa fa-comments" /> 11
+                      <i className="fa fa-comments" /> {this.props.comment}
                     </div>
                     <div className="view">
-                      <i className="fa fa-eye" /> 1.123.141
+                      <i className="fa fa-eye" /> {this.props.views}
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-9">
                   <div className="anime_details_text">
                     <div className="anime_details_title">
-                      <h3>Boruto: Naruto next generations </h3>
-                      <span>フェイト／ステイナイト, Kishimoto Masashi</span>
+                      <h3>{this.props.name}</h3>
+                      <span>{this.props.author}</span>
                     </div>
                     <div className="anime_details_rating">
                       <div className="rating">
@@ -48,49 +48,48 @@ export default class anime_details extends Component {
                           <i className="fa fa-star-half-o" />
                         </a>
                       </div>
-                      <span>1.021.213 Votes</span>
+                      <span>{this.props.votes}</span>
                     </div>
                     <p>
-                    Naruto là một chàng trai trẻ đầy nhiệt huyết cũng như rất nghịch ngợm, trải qua bao nhiêu thăng trầm, cậu trở thành anh hùng của thế giới nhẫn giả và lên chức Hokage làng lá. Nhưng câu chuyện này không phải về naruto, mà là về con trai của naruto, chính là Boruto.
+                        {this.props.intro}
                     </p>
                     <div className="anime_details_widget">
                       <div className="row">
                         <div className="col-lg-6 col-md-6">
                           <ul>
                             <li>
-                              <span>Type:</span> TV Series
+                              <span>Type:</span>{this.props.type}
                             </li>
                             <li>
-                              <span>Studios:</span> Lerche
+                              <span>Studios:</span> {this.props.studio}
                             </li>
                             <li>
-                              <span>Date aired:</span> Oct 02, 2017 to ?
+                              <span>Date aired:</span>{this.props.date}
                             </li>
                             <li>
-                              <span>Status:</span> Airing
+                              <span>Status:</span> {this.props.status}
                             </li>
                             <li>
-                              <span>Genre:</span> Action, Adventure, Fantasy,
-                              Magic
+                              <span>Genre:</span> {this.props.genre}
                             </li>
                           </ul>
                         </div>
                         <div className="col-lg-6 col-md-6">
                           <ul>
                             <li>
-                              <span>Scores:</span> 7.31 / 1,515
+                              <span>Scores:</span> {this.props.scores}
                             </li>
                             <li>
-                              <span>Rating:</span> 9.5 / 161 times
+                              <span>Rating:</span> {this.props.rating}
                             </li>
                             <li>
-                              <span>Duration:</span> 24 min/ep
+                              <span>Duration:</span> {this.props.duration}
                             </li>
                             <li>
-                              <span>Quality:</span> HD
+                              <span>Quality:</span> {this.props.quality}
                             </li>
                             <li>
-                              <span>Views:</span> 1.131,541
+                              <span>Views:</span>{this.props.views}
                             </li>
                           </ul>
                         </div>
@@ -263,7 +262,9 @@ export default class anime_details extends Component {
           </div>
         </section>
         {/* Anime Section End */}
-      </div>
-    );
-  }
+            </div>
+        );
+    }
 }
+
+export default Anime_Detail;

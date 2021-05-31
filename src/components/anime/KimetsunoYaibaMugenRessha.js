@@ -18,8 +18,8 @@ export default class KimetsunoYaibaMugenRessha extends Component {
                         <li>Shonen</li>
                     </div>
                 }
-                name="One piece"
-                href="/"
+                name="Kimetsu No Yaiba"
+                href="/kimetsu_detail"
             />
         )
     }

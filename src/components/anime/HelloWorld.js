@@ -16,7 +16,7 @@ export default class HelloWorld extends Component {
                     </div>
                 }
                 name="Hello World"
-                href="/"
+                href="/helloworld_detail"
             />
         )
     }

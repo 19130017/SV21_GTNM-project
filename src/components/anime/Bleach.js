@@ -20,7 +20,7 @@ export default class Bleach extends Component {
                     </div>
                 }
                 name="Bleach"
-                href="/"
+                href="/bleach_detail"
             />
         )
     }

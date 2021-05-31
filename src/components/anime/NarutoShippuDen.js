@@ -19,7 +19,7 @@ export default class NarutoShippuDen extends Component {
                     </div>
                 }
                 name="Naruto shippuden"
-                href="/"
+                href="/naruto_detail"
             />
         )
     }

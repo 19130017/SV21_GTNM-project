@@ -6,8 +6,8 @@ export default class Boruto extends Component {
         return (
             <Anime
                 episodes="200/???"
-                comment="5644"
-                view="14 triệu"
+                comment="1200"
+                view="14 milion"
                 bg="img/trending/boruto.jpg"
                 category={
                     <div>
@@ -19,7 +19,7 @@ export default class Boruto extends Component {
                     </div>
                 }
                 name="Boruto"
-                href="/anime_details"
+                href="/boruto_detail"
             />
         )
     }
