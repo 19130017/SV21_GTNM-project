@@ -1,34 +1,16 @@
 import React, { Component } from "react";
-import BreadCrumbs from "../category/BreadCrumbs";
 
 export default class anime_watches extends Component {
   render() {
     return (
       <div>
-        <BreadCrumbs />
-
+          {/* bread crumb */}
         {/* Anime Section Begin */}
         <section className="anime-details spad">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
                 <div className="anime_video_player">
-                  {/* <video
-                    id="player"
-                    playsInline
-                    controls
-                    data-poster="./videos/anime-watch.jpg"
-                  >
-                    <source src="videos/1.mp4" type="video/mp4" />
-                    <track
-                      kind="captions"
-                      label="English captions"
-                      src="#"
-                      srcLang="en"
-                      default
-                    />
-                  </video> */}
-
                   <div
                     style={{
                       position: "relative",
