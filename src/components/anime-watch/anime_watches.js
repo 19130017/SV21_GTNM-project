@@ -4,7 +4,7 @@ export default class Anime_watches extends Component {
   render() {
     return (
       <div>
-          {/* bread crumb */}
+        {/* bread crumb */}
         {/* Anime Section Begin */}
         <section className="anime-details spad">
           <div className="container">
