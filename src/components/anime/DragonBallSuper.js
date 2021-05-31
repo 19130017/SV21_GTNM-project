@@ -19,6 +19,7 @@ export default class DragonBallSuper extends Component {
                 }
                 name="Dragon ball super"
                 href="/DragonBallSuper_details"
+
             />
         )
     }

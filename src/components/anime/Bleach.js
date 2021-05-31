@@ -21,6 +21,7 @@ export default class Bleach extends Component {
                 }
                 name="Bleach"
                 href="/Bleach_details"
+
             />
         )
     }

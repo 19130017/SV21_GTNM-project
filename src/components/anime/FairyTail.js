@@ -20,6 +20,7 @@ export default class FairyTail extends Component {
                 }
                 name="Fairy Tail"
                 href="/FairyTail_details"
+
             />
         )
     }

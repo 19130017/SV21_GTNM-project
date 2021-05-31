@@ -20,6 +20,7 @@ export default class DrStone extends Component {
                 }
                 name="Dr.Stone"
                 href="/DrStone_details"
+
             />
         )
     }

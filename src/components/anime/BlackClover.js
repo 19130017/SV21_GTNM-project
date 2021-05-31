@@ -21,6 +21,7 @@ export default class BlackClover extends Component {
                 }
                 name="Black Clover"
                 href="/BlackClover_details"
+
             />
         )
     }
