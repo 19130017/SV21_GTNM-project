@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import anime_watches from "../components/anime/anime_watches";
+import Anime_watches from "../components/anime-watch/Anime_watches";
 import BlackClover_details from "../components/anime_details/BlackClover_details";
 import Bleach_details from "../components/anime_details/Bleach_details";
 import Boruto_details from "../components/anime_details/Boruto_details";
@@ -40,7 +40,7 @@ export default class RouterURL extends Component {
           <Route exact path="/blog" component={Blog} />
           <Route exact path="/blog_details" component={Blogdetails} />
           <Route exact path="/category" component={Category} />
-          <Route exact path="/anime_watches" component={anime_watches} />
+          <Route exact path="/anime_watches" component={Anime_watches} />
           <Route exact path="/forgotPass" component={ForgotPassword} />
           <Route exact path="/contact" component={Contact} />
           {/* details */}

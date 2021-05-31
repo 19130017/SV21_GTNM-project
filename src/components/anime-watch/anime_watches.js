@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class anime_watches extends Component {
+export default class Anime_watches extends Component {
   render() {
     return (
       <div>
