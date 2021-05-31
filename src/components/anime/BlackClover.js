@@ -8,7 +8,7 @@ export default class BlackClover extends Component {
                 episodes="170/170"
                 comment="5957"
                 view="19 triệu"
-                bg="img/trending/dr-stone.jpg"
+                bg="img/trending/black-clover.jpg"
                 category={
                     <div>
                         <li>Anime</li>
@@ -20,6 +20,7 @@ export default class BlackClover extends Component {
                     </div>
                 }
                 name="Black Clover"
+                href="/BlackClover_details"
             />
         )
     }

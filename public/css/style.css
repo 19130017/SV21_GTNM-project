@@ -2351,7 +2351,7 @@ ol {
 }
 .h1-contact {
   font-weight:bold;
-  margin-left:650px;
+  text-align: center;
 }
 .message {
   height:200px;
@@ -2369,5 +2369,4 @@ ol {
   width:400px;
   height:400px;
   margin-top:-30px;
-  margin-left:200px;
 }

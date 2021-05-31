@@ -8,7 +8,7 @@ export default class Bleach extends Component {
                 episodes="366/366"
                 comment="1438"
                 view="15 triệu"
-                bg="img/trending/fairy-tail.jpg"
+                bg="img/trending/bleach.jpg"
                 category={
                     <div>
                         <li>Anime</li>
@@ -20,6 +20,7 @@ export default class Bleach extends Component {
                     </div>
                 }
                 name="Bleach"
+                href="/Bleach_details"
             />
         )
     }

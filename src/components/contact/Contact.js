@@ -9,10 +9,10 @@ class Contact extends Component {
         <div className="container-contact">
           <h1 className="h1-contact">Contact</h1>
           <div className="row">
-            <div className="col-sm-6">
+            <div className="col-sm-4">
               <img src="img/mail.png" className ="mail-img" alt="mail" />
             </div>
-            <div className="col-sm-6">
+            <div className="col-sm-5">
               <form>
                 <div className="form-group">
                   <label htmlFor="exampleInputPassword1">Your Name</label>
@@ -35,7 +35,7 @@ class Contact extends Component {
                 </div>
                 <div className="form-group">
                   <label htmlFor="exampleInputPassword1">Message</label>
-                  <textarea rows="4" cols="90" placeholder="Message"></textarea>
+                  <textarea rows="4" cols="62" placeholder="Message"></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary submit-btn">
                   Submit

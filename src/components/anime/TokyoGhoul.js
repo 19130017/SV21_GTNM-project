@@ -18,6 +18,7 @@ export default class TokyoGhoul extends Component {
                     </div>
                 }
                 name="Tokyo Ghoul"
+                href="/TokyoGhoul_details"
             />
         )
     }

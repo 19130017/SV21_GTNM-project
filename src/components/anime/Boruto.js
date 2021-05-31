@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Anime from './Anime'
-
 export default class Boruto extends Component {
     render() {
         return (
@@ -19,7 +18,7 @@ export default class Boruto extends Component {
                     </div>
                 }
                 name="Boruto"
-                href="/anime_details"
+                href="/Boruto_details"
             />
         )
     }

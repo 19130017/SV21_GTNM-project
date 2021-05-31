@@ -20,6 +20,7 @@ export default class JujutsuKaisen extends Component {
                     </div>
                 }
                 name="Jujutsu Kaisen"
+                href="/JujutsuKaisen_details"
             />
         )
     }

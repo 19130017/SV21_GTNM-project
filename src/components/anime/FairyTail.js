@@ -8,7 +8,7 @@ export default class FairyTail extends Component {
                 episodes="277/277"
                 comment="572"
                 view="10 triệu"
-                bg="img/trending/bleach.jpg"
+                bg="img/trending/fairy-tail.jpg"
                 category={
                     <div>
                         <li>Anime</li>
@@ -18,7 +18,8 @@ export default class FairyTail extends Component {
                         <li>Phép thuật</li>
                     </div>
                 }
-                name="Bleach"
+                name="Fairy Tail"
+                href="/FairyTail_details"
             />
         )
     }

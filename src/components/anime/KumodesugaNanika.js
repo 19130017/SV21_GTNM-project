@@ -18,6 +18,7 @@ export default class KumodesugaNanika extends Component {
                     </div>
                 }
                 name="Kumo desu ga, Nani ka"
+                href="/KumodesugaNanika_details"
             />
         )
     }
