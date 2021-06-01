@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import BreadCrumbs from "./BreadCrumbs";
-import Anime from '../anime/Anime'
 import DragonBallSuper from "../anime/DragonBallSuper";
 import NarutoShippuDen from "../anime/NarutoShippuDen";
 import Bleach from "../anime/Bleach";
@@ -11,7 +9,7 @@ import FatestaynightMovieIII from "../anime/FatestaynightMovieIII";
 import TenseiShitaraSlimeDattaKen from "../anime/TenseiShitaraSlimeDattaKen";
 import KumodesugaNanika from "../anime/KumodesugaNanika";
 import HelloWorld from "../anime/HelloWorld";
-import Tenkinoko from '../anime/Tenkinoko';
+import Tenkinoko from "../anime/Tenkinoko";
 import YourName from "../anime/YourName";
 
 export default class Category extends Component {
@@ -19,7 +17,23 @@ export default class Category extends Component {
     return (
       <div>
         <div>
-          <BreadCrumbs />
+          {/* Breadcrumb Begin */}
+          <div className="breadcrumb-option">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="breadcrumb_links">
+                    <a href="/">
+                      <i className="fa fa-home" /> Home
+                    </a>
+                    <span>Categories</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Breadcrumb End */}
+
           {/* Product Section Begin */}
           <section className="product-page spad">
             <div className="container">
