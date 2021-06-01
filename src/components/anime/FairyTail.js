@@ -18,9 +18,8 @@ export default class FairyTail extends Component {
                         <li>Phép thuật</li>
                     </div>
                 }
-                name="Fairy Tail"
-                href="/FairyTail_details"
-
+                name="Fairy tail"
+                href="/fairytail_detail"
             />
         )
     }

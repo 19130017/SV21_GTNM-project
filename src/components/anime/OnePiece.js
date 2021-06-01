@@ -18,7 +18,7 @@ export default class OnePiece extends Component {
                     </div>
                 }
                 name="One piece"
-                href="/OnePiece_details"
+                href="/onepiece_detail"
             />
         )
     }

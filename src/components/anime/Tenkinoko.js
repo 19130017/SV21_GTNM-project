@@ -18,7 +18,7 @@ export default class Tenkinoko extends Component {
                     </div>
                 }
                 name="Tenkinoko"
-                href="/Tenkinoko_details"
+                href="/tenkinoko_detail"
             />
         )
     }

@@ -7,7 +7,7 @@ export default class DragonBallSuper extends Component {
             <Anime
                 episodes="131/131"
                 comment="6882"
-                view="11 triệu"
+                view="11 milion"
                 bg="img/trending/dragonballsuper.jpg"
                 category={
                     <div>
@@ -18,8 +18,7 @@ export default class DragonBallSuper extends Component {
                     </div>
                 }
                 name="Dragon ball super"
-                href="/DragonBallSuper_details"
-
+                href="/dragonballsuper_detail"
             />
         )
     }

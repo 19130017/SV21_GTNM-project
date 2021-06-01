@@ -18,8 +18,7 @@ export default class EdenZero extends Component {
                     </div>
                 }
                 name="Eden zero"
-                href="/EdenZero_details"
-
+                href="/edenzero_detail"
             />
         )
     }

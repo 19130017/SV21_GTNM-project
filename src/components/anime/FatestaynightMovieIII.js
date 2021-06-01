@@ -19,8 +19,7 @@ export default class FatestaynightMovieIII extends Component {
                     </div>
                 }
                 name="Fate/stay night Movie: Heaven's Feel - III. Spring Song"
-                href="/FatestaynightMovieIII_details"
-
+                href="/fatestaynight3_detail"
             />
         )
     }

@@ -13,13 +13,10 @@ export default class CaptainTsubasa extends Component {
                     <div>
                         <li>Anime</li>
                         <li>Thể thao</li>
-                        <li>Shounen</li>
-                        <li>Hành Động- Phiêu lưu</li>
                     </div>
                 }
                 name="Captain Tsubasa"
-                href="/CaptainTsubasa_details"
-
+                href="/captaintsubasa_detail"
             />
         )
     }
