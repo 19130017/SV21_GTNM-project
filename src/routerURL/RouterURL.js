@@ -29,7 +29,7 @@ import TokyoGhoul_Detail from "../components/anime/anime-details/TokyoGhoul_Deta
 import KimetsuNoYaiba_Detail from "../components/anime/anime-details/KimetsuNoYaiba_Detail";
 import TenseiShitaraSlimeDattaKen_Detail from "../components/anime/anime-details/TenseiShitaraSlimeDattaKen_Detail";
 import YourName_Detail from "../components/anime/anime-details/YourName_Detail";
-import Anime_watches from "../components/anime-watch/Anime_watches";
+import Anime_watches from "../components/anime-watches/Anime_watches";
 
 export default class RouterURL extends Component {
   render() {

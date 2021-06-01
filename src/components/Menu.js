@@ -48,7 +48,7 @@ export default class Menu extends Component {
                         </ul>
                       </li> */}
                       <li>
-                        <a href="/blog">Our Blog</a>
+                        <a href="/blog">Blog</a>
                       </li>
                       <li>
                         <a href="/contact">Contacts</a>

@@ -5,18 +5,18 @@ import FatestaynightMovieIII from "./anime/FatestaynightMovieIII";
 import Tenkinoko from "./anime/Tenkinoko";
 import TokyoGhoul from "./anime/TokyoGhoul";
 import YourName from "./anime/YourName";
-import DrStone from "./anime/DrStone";
-import HelloWorld from "./anime/HelloWorld";
-import OnePiece from "./anime/OnePiece";
-import NarutoShippuDen from "./anime/NarutoShippuDen";
-import CaptainTsubasa from "./anime/CaptainTsubasa";
+import DrStone from './anime/DrStone'
+import HelloWorld from './anime/HelloWorld'
+import OnePiece from './anime/OnePiece'
+import NarutoShippuDen from './anime/NarutoShippuDen'
+import CaptainTsubasa from './anime/CaptainTsubasa'
 import JujutsuKaisen from "./anime/JujutsuKaisen";
 import BlackClover from "./anime/BlackClover";
-import EdenZero from "./anime/EdenZero";
-import Fairytail from "./anime/FairyTail";
-import KumodesugaNanika from "./anime/KumodesugaNanika";
-import Bleach from "./anime/Bleach";
-import KimetsunoYaibaMugenRessha from "./anime/KimetsunoYaibaMugenRessha";
+import EdenZero from './anime/EdenZero'
+import Fairytail from './anime/FairyTail'
+import KumodesugaNanika from './anime/KumodesugaNanika'
+import Bleach from './anime/Bleach'
+import KimetsunoYaibaMugenRessha from './anime/KimetsunoYaibaMugenRessha'
 
 export default class Product extends Component {
   render() {
@@ -124,9 +124,7 @@ export default class Product extends Component {
                           <i className="fa fa-eye" /> 1.123.141
                         </div>
                         <h5>
-                          <a href="/boruto_detail">
-                            Boruto: Naruto next generations
-                          </a>
+                          <a href="/boruto_detail">Boruto: Naruto next generations</a>
                         </h5>
                       </div>
                       <div

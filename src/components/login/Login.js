@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Breadcrumb from "./Breadcrumb";
+import Breadcrumb from "../breadcrumb/Breadcrumb";
 
 export default class Login extends Component {
   render() {
     return (
       <div>
         {/* Normal Breadcrumb Begin */}
-        <Breadcrumb />
+        <Breadcrumb position="Login" />
         {/* Normal Breadcrumb End */}
         {/* Login Section Begin */}
         <section className="login spad">

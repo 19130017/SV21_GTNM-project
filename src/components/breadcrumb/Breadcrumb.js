@@ -12,8 +12,10 @@ export default class Breadcrumb extends Component {
             <div className="row">
               <div className="col-lg-12 text-center">
                 <div className="normal_breadcrumb_text">
-                  <h2>Login</h2>
-                  <p>Home / Login</p>
+                  <h2>{this.props.position}</h2>
+                  <p>
+                    <a href="/">Home</a> / {this.props.position}
+                  </p>
                 </div>
               </div>
             </div>

@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Anime from "./Anime";
+import React, { Component } from 'react'
+import Anime from './Anime'
 
 export default class EdenZero extends Component {
     render() {

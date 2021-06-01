@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import Breadcrum from "./Breadcrum";
+import Breadcrumb from "../breadcrumb/Breadcrumb";
 
 class Contact extends Component {
   render() {
     return (
       <div>
-        <Breadcrum />
+        <Breadcrumb position="Contact" />
         <div className="container-contact">
           <h1 className="h1-contact">Contact</h1>
           <div className="row">
             <div className="col-sm-6">
-              <img src="img/mail.png" className ="mail-img" alt="mail" />
+              <img src="img/mail.png" className="mail-img" alt="mail" />
             </div>
             <div className="col-sm-6">
               <form>

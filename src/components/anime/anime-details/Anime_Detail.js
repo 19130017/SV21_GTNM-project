@@ -50,21 +50,21 @@ class Anime_Detail extends Component {
                       </div>
                       <span>{this.props.votes}</span>
                     </div>
-                    <p>{this.props.intro}</p>
+                    <p>
+                        {this.props.intro}
+                    </p>
                     <div className="anime_details_widget">
                       <div className="row">
                         <div className="col-lg-6 col-md-6">
                           <ul>
                             <li>
-                              <span>Type:</span>
-                              {this.props.type}
+                              <span>Type:</span>{this.props.type}
                             </li>
                             <li>
                               <span>Studios:</span> {this.props.studio}
                             </li>
                             <li>
-                              <span>Date aired:</span>
-                              {this.props.date}
+                              <span>Date aired:</span>{this.props.date}
                             </li>
                             <li>
                               <span>Status:</span> {this.props.status}
@@ -89,8 +89,7 @@ class Anime_Detail extends Component {
                               <span>Quality:</span> {this.props.quality}
                             </li>
                             <li>
-                              <span>Views:</span>
-                              {this.props.views}
+                              <span>Views:</span>{this.props.views}
                             </li>
                           </ul>
                         </div>
@@ -263,9 +262,9 @@ class Anime_Detail extends Component {
           </div>
         </section>
         {/* Anime Section End */}
-      </div>
-    );
-  }
+            </div>
+        );
+    }
 }
 
 export default Anime_Detail;

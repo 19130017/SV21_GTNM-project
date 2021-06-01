@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Breadcrumb from "./Breadcrumb";
+import Breadcrumb from "../breadcrumb/Breadcrumb";
 
 export default class Blog extends Component {
   render() {
     return (
       <div>
-        <Breadcrumb />
+        <Breadcrumb position="Blog" />
 
         {/* Blog Section Begin */}
         <section className="blog spad">
