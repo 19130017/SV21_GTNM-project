@@ -50,35 +50,21 @@ class Anime_Detail extends Component {
                       </div>
                       <span>{this.props.votes}</span>
                     </div>
-<<<<<<< HEAD
-                    <p>
-                        {this.props.intro}
-                    </p>
-=======
                     <p>{this.props.intro}</p>
->>>>>>> 1dfd124c42bce079e0e56268d09d2dd16678e415
                     <div className="anime_details_widget">
                       <div className="row">
                         <div className="col-lg-6 col-md-6">
                           <ul>
                             <li>
-<<<<<<< HEAD
-                              <span>Type:</span>{this.props.type}
-=======
                               <span>Type:</span>
                               {this.props.type}
->>>>>>> 1dfd124c42bce079e0e56268d09d2dd16678e415
                             </li>
                             <li>
                               <span>Studios:</span> {this.props.studio}
                             </li>
                             <li>
-<<<<<<< HEAD
-                              <span>Date aired:</span>{this.props.date}
-=======
                               <span>Date aired:</span>
                               {this.props.date}
->>>>>>> 1dfd124c42bce079e0e56268d09d2dd16678e415
                             </li>
                             <li>
                               <span>Status:</span> {this.props.status}
@@ -103,12 +89,8 @@ class Anime_Detail extends Component {
                               <span>Quality:</span> {this.props.quality}
                             </li>
                             <li>
-<<<<<<< HEAD
-                              <span>Views:</span>{this.props.views}
-=======
                               <span>Views:</span>
                               {this.props.views}
->>>>>>> 1dfd124c42bce079e0e56268d09d2dd16678e415
                             </li>
                           </ul>
                         </div>
@@ -281,15 +263,9 @@ class Anime_Detail extends Component {
           </div>
         </section>
         {/* Anime Section End */}
-<<<<<<< HEAD
-            </div>
-        );
-    }
-=======
       </div>
     );
   }
->>>>>>> 1dfd124c42bce079e0e56268d09d2dd16678e415
 }
 
 export default Anime_Detail;
