@@ -124,7 +124,15 @@ export default class Product extends Component {
                           <i className="fa fa-eye" /> 1.123.141
                         </div>
                         <h5>
+<<<<<<< HEAD
                           <a href="/boruto_detail">Boruto: Naruto next generations</a>
+=======
+<<<<<<< HEAD
+                          <a href="/Boruto_details">Boruto: Naruto next generations</a>
+=======
+                          <a href="/boruto_detail">Boruto: Naruto next generations</a>
+>>>>>>> 748b21f665534dea609b6a33cfa32718e923795f
+>>>>>>> 1dfd124c42bce079e0e56268d09d2dd16678e415
                         </h5>
                       </div>
                       <div
