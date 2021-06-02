@@ -18,7 +18,7 @@ export default class Boruto extends Component {
                         <li>Shonen</li>
                     </div>
                 }
-                name="Boruto"
+                name="Boruto: Naruto next generations"
                 href="/boruto_detail"
             />
         )

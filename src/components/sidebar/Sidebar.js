@@ -1,4 +1,14 @@
 import React, { Component } from "react";
+import BlackCloverNC from "./newcomment/BlackCloverNC";
+import BorutoNC from "./newcomment/BorutoNC";
+import CaptainTsubasaNC from "./newcomment/CaptainTsubasaNC";
+import OnePieceNC from "./newcomment/OnePieceNC";
+import TenseiShitaraSlimeDattaKenNC from "./newcomment/TenseiShitaraSlimeDattaKenNC";
+import BorutoTV from "./topview/BorutoTV";
+import DragonBallSuperTV from "./topview/DragonBallSuperTV";
+import DrStoneTV from "./topview/DrStoneTV";
+import NarutoTV from "./topview/NarutoTV";
+import OnePieceTV from "./topview/OnePieceTV";
 
 export default class Sidebar extends Component {
   render() {
@@ -18,68 +28,11 @@ export default class Sidebar extends Component {
               <li data-filter=".years">Years</li>
             </ul>
             <div className="filter_gallery">
-              <div
-                className="product_sidebar_view_item set-bg mix day years"
-                data-setbg="img/sidebar/tv-1.jpg"
-              >
-                <div className="ep">18 / ?</div>
-                <div className="view">
-                  <i className="fa fa-eye" /> 1.123.141
-                </div>
-                <h5>
-                  <a href="/boruto_detail">Boruto: Naruto next generations</a>
-                </h5>
-              </div>
-              <div
-                className="product_sidebar_view_item set-bg mix month week"
-                data-setbg="img/sidebar/tv-2.jpg"
-              >
-                <div className="ep">18 / ?</div>
-                <div className="view">
-                  <i className="fa fa-eye" /> 9141
-                </div>
-                <h5>
-                  <a href="#">The Seven Deadly Sins: Wrath of the Gods</a>
-                </h5>
-              </div>
-              <div
-                className="product_sidebar_view_item set-bg mix week years"
-                data-setbg="img/sidebar/tv-3.jpg"
-              >
-                <div className="ep">18 / ?</div>
-                <div className="view">
-                  <i className="fa fa-eye" /> 9141
-                </div>
-                <h5>
-                  <a href="#">Sword art online alicization war of underworld</a>
-                </h5>
-              </div>
-              <div
-                className="product_sidebar_view_item set-bg mix years month"
-                data-setbg="img/sidebar/tv-4.jpg"
-              >
-                <div className="ep">18 / ?</div>
-                <div className="view">
-                  <i className="fa fa-eye" /> 9141
-                </div>
-                <h5>
-                  <a href="#">
-                    Fate/stay night: Heaven's Feel I. presage flower
-                  </a>
-                </h5>
-              </div>
-              <div
-                className="product_sidebar_view_item set-bg mix day"
-                data-setbg="img/sidebar/tv-5.jpg"
-              >
-                <div className="ep">18 / ?</div>
-                <div className="view">
-                  <i className="fa fa-eye" /> 9141
-                </div>
-                <h5>
-                  <a href="#">Fate stay night unlimited blade works</a>
-                </h5>
-              </div>
+              <DrStoneTV />
+              <OnePieceTV />
+              <DragonBallSuperTV />
+              <BorutoTV />
+              <NarutoTV />
             </div>
           </div>
 
@@ -88,9 +41,14 @@ export default class Sidebar extends Component {
             <div className="section-title">
               <h5>New Comment</h5>
             </div>
-            <div className="product_sidebar_comment_item">
+            {/* <div className="product_sidebar_comment_item">
               <div className="product_sidebar_comment_item_pic">
-                <img src="img/sidebar/comment-1.jpg" alt="" />
+                <img
+                  src="img/Poster/3.png"
+                  width="90px"
+                  height="130px"
+                  alt=""
+                />
               </div>
               <div className="product_sidebar_comment_item_text">
                 <ul>
@@ -156,6 +114,13 @@ export default class Sidebar extends Component {
                 </span>
               </div>
             </div>
+           */}
+
+            <BorutoNC />
+            <OnePieceNC />
+            <TenseiShitaraSlimeDattaKenNC />
+            <CaptainTsubasaNC />
+            <BlackCloverNC />
           </div>
         </div>
       </div>

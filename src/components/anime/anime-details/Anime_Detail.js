@@ -62,12 +62,12 @@ class Anime_Detail extends Component {
                           <i className="fa fa-star-half-o" />
                         </a>
                       </div>
-                      <span>{this.props.votes}</span>
+                      <span>{this.props.views} Votes</span>
                     </div>
                     <p>{this.props.intro}</p>
                     <div className="anime_details_widget">
                       <div className="row">
-                        <div className="col-lg-6 col-md-6">
+                        <div className="col-lg-7 col-md-7">
                           <ul>
                             <li>
                               <span>Type:</span>
@@ -88,7 +88,7 @@ class Anime_Detail extends Component {
                             </li>
                           </ul>
                         </div>
-                        <div className="col-lg-6 col-md-6">
+                        <div className="col-lg-5 col-md-5">
                           <ul>
                             <li>
                               <span>Scores:</span> {this.props.scores}

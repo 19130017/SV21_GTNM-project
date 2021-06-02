@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+import DragonBallSuperSlider from "./slider/DragonBallSuperSlider";
+import KimetsuNoYaibaSilder from "./slider/KimetsuNoYaibaSilder";
+import KumodesugaNanikaSilder from "./slider/KumodesugaNanikaSilder";
+import OnePieceSlider from "./slider/OnePieceSlider";
 export default class Hero extends Component {
   render() {
     return (
@@ -18,13 +22,13 @@ export default class Hero extends Component {
                 />
                 <li data-target="#carouselId" data-slide-to={1} />
                 <li data-target="#carouselId" data-slide-to={2} />
+                <li data-target="#carouselId" data-slide-to={3} />
               </ol>
               <div className="carousel-inner" role="listbox">
-                {/* 1 */}
-                <div className="carousel-item active">
+                {/* <div className="carousel-item active">
                   <div>
                     <img
-                      src="img/hero/hero-1.jpg"
+                      src="img/wall/2.png"
                       alt="First slide"
                       className="hero_items"
                     />
@@ -40,11 +44,10 @@ export default class Hero extends Component {
                     </div>
                   </div>
                 </div>
-                {/* 2 */}
                 <div className="carousel-item ">
                   <div>
                     <img
-                      src="img/hero/hero-2.jpg"
+                      src="img/wall/13.png"
                       alt="First slide"
                       className="hero_items"
                     />
@@ -63,12 +66,10 @@ export default class Hero extends Component {
                     </div>
                   </div>
                 </div>
-
-                {/* 3 */}
                 <div className="carousel-item ">
                   <div>
                     <img
-                      src="img/hero/hero-3.jpg"
+                      src="img/wall/6.png"
                       alt="First slide"
                       className="hero_items"
                     />
@@ -87,6 +88,11 @@ export default class Hero extends Component {
                     </div>
                   </div>
                 </div>
+               */}
+                <DragonBallSuperSlider />
+                <KimetsuNoYaibaSilder />
+                <KumodesugaNanikaSilder />
+                <OnePieceSlider />
               </div>
               <a
                 className="carousel-control-prev"
