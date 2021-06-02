@@ -5,7 +5,12 @@ export default class Silder extends Component {
     return (
       <div className={this.props.className}>
         <div>
-          <img src={this.props.src} className="hero_items" />
+          <img
+            src={this.props.src}
+            width="1200px"
+            height="675px"
+            className="hero_items"
+          />
 
           <div className="hero_text">
             <div className="label">{this.props.label}</div>
