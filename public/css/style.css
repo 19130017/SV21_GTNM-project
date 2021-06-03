@@ -2347,26 +2347,75 @@ ol {
   }
 }
 .container-contact {
-  background-color:white;
+  background-color:#0b0c2a;
+  color:white;
+  position:relative;
 }
-.h1-contact {
+.container-contact i {
+  margin-right:20px;
+  font-size :25px;
+}
+.h3-contact {
+  color:white;
   font-weight:bold;
-  text-align: center;
 }
-.message {
-  height:200px;
-  
+
+.contact-section {
+  width:100%;
+  justify-content:center;
+  align-items:center;
 }
-.mail-icon {
-  width:300px;
-  height:300px;
+.contact-info {
+  padding-top:50px;
+  max-width:500px;
+  line-height:65px;
+  padding-left:50px;
+  font-size:18px;
+  margin-right:60px;
 }
-.submit-btn {
-  margin-left:200px;
+.contact-form {
+  margin-right:50px;
+  float:left;
+}
+.contact-form h3 {
+  text-align:center;
+  text-align:center;
+  font-size:35px;
+  text-transform:uppercase;
+  margin-bottom:30px;
+}
+.contact-form .text-box {
+  border:none;
+  width:48%;
+  max-width:400px;
+  min-width:200px;
+  height:50px;
+  padding : 12px;
+  font-size:12px;
+  border-radius:5px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  margin-bottom:20px;
+  opacity:0.9;
+
+}
+.contact-form .text-box:first-child {
+  margin-right:21px;
+}
+.contact-form textarea{
+  border:none;
+  width: 100%;
+  font-size:15px;
+  resize: vertical;
+  min-height:200px;
+  max-height:400px;
+  border-radius:5px;
+  box-shadow:0 1px 1px rgba(0,0,0,0.1);
+  margin-bottom:20px;
+  opacity:0.9;
+
+}
+.contact-form .btn {
+  float:right;
   width:200px;
 }
-.mail-img {
-  width:400px;
-  height:400px;
-  margin-top:-30px;
-}
+
