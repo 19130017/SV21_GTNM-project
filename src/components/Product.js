@@ -103,7 +103,7 @@ export default class Product extends Component {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-8">
-               <Sidebar />
+                <Sidebar />
               </div>
             </div>
           </div>

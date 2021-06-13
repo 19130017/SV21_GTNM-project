@@ -3,6 +3,7 @@ import DragonBallSuperSlider from "./slider/DragonBallSuperSlider";
 import KimetsuNoYaibaSilder from "./slider/KimetsuNoYaibaSilder";
 import KumodesugaNanikaSilder from "./slider/KumodesugaNanikaSilder";
 import OnePieceSlider from "./slider/OnePieceSlider";
+
 export default class Hero extends Component {
   render() {
     return (
@@ -25,70 +26,6 @@ export default class Hero extends Component {
                 <li data-target="#carouselId" data-slide-to={3} />
               </ol>
               <div className="carousel-inner" role="listbox">
-                {/* <div className="carousel-item active">
-                  <div>
-                    <img
-                      src="img/wall/2.png"
-                      alt="First slide"
-                      className="hero_items"
-                    />
-
-                    <div className="hero_text">
-                      <div className="label">Adventure</div>
-                      <h2>Fate / Stay Night: Unlimited Blade Works</h2>
-                      <p>After 30 days of travel across the world...</p>
-                      <a href="#">
-                        <span>Watch Now</span>{" "}
-                        <i className="fa fa-angle-right" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item ">
-                  <div>
-                    <img
-                      src="img/wall/13.png"
-                      alt="First slide"
-                      className="hero_items"
-                    />
-
-                    <div className="hero_text">
-                      <div className="label">Adventure</div>
-                      <h2>Boruto: Naruto Next Generations</h2>
-                      <p>
-                        Naruto là một chàng trai trẻ đầy nhiệt huyết cũng như
-                        rất nghịch ngợm,{" "}
-                      </p>
-                      <a href="#">
-                        <span>Watch Now</span>{" "}
-                        <i className="fa fa-angle-right" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item ">
-                  <div>
-                    <img
-                      src="img/wall/6.png"
-                      alt="First slide"
-                      className="hero_items"
-                    />
-
-                    <div className="hero_text">
-                      <div className="label">Adventure</div>
-                      <h2>One piece</h2>
-                      <p>
-                        Ta là Monkey D. Luffy! Người sẽ trở thành VUA HẢI
-                        TẶC!!!”
-                      </p>
-                      <a href="#">
-                        <span>Watch Now</span>{" "}
-                        <i className="fa fa-angle-right" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-               */}
                 <DragonBallSuperSlider />
                 <KimetsuNoYaibaSilder />
                 <KumodesugaNanikaSilder />
