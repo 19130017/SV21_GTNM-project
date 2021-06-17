@@ -6,7 +6,7 @@ export default class OnePieceNC extends Component {
     return (
       <NewComment
         view="30 triệu"
-        src="img/poster/2.png"
+        src="img/poster/2.jpg"
         category={
           <div>
             <li>Anime</li>

@@ -6,7 +6,7 @@ export default class BlackCloverNC extends Component {
     return (
       <NewComment
         view="19 triệu"
-        src="img/poster/13.png"
+        src="img/poster/13.jpg"
         category={
           <div>
             <li>Anime</li>

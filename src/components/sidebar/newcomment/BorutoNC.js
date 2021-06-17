@@ -6,7 +6,7 @@ export default class BorutoNC extends Component {
     return (
       <NewComment
         view="14 milion"
-        src="img/poster/14.png"
+        src="img/poster/14.jpg"
         category={
           <div>
             <li>Anime</li>

@@ -6,7 +6,7 @@ export default class CaptainTsubasaNC extends Component {
     return (
       <NewComment
         view="9 triệu"
-        src="img/poster/10.png"
+        src="img/poster/10.jpg"
         category={
           <div>
             <li>Anime</li>

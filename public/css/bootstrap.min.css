@@ -6087,11 +6087,11 @@ a.close.disabled {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: palevioletred;
+  background-color: #fff;
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  opacity: 0.5;
+  opacity: 0.01;
   transition: opacity 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {

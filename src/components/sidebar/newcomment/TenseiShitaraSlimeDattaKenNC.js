@@ -6,7 +6,7 @@ export default class TenseiShitaraSlimeDattaKenNC extends Component {
     return (
       <NewComment
         view="8 triệu"
-        src="img/poster/16.png"
+        src="img/poster/16.jpg"
         category={
           <div>
             <li>Anime</li>
