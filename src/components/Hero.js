@@ -8,7 +8,7 @@ export default class Hero extends Component {
   render() {
     return (
       <div>
-        <section>
+        <section className="container">
           <div>
             <div
               id="carouselId"
